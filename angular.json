@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "reference-storefront": {
+      "i18n": {
+        "sourceLocale":"en-US",
+        "locales": {
+          "es-KR": "src/locale/messages.kr.xlf"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,6 +19,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize":["es-KR"],
             "outputPath": "dist/browser",
             "index": "src/index.html",
             "main": "src/main.ts",

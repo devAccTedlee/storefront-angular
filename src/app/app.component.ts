@@ -26,7 +26,11 @@ export class AppComponent implements OnInit {
             map((event: RouterEvent) => event.url === '/'),
         );
     }
-
+    //
+    //title = "TEST";
+    //
+    //this.titleService.setTitle($localize`${this.title}`);
+    //
     openCartDrawer() {
         this.stateService.setState('cartDrawerOpen', true);
     }
