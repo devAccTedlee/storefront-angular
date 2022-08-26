@@ -1,10 +1,10 @@
 <table class="table">
     <thead>
     <tr>
-        <th scope="col">Order code</th>
-        <th scope="col">Status</th>
-        <th scope="col">Total</th>
-        <th scope="col">Last updated</th>
+        <th i18n scope="col">Order code</th>
+        <th i18n scope="col">Status</th>
+        <th i18n scope="col">Total</th>
+        <th i18n scope="col">Last updated</th>
     </tr>
     </thead>
     <tbody>
@@ -14,9 +14,9 @@
                 {{ order.code }}
             </a>
         </th>
-        <td>{{ order.state }}</td>
-        <td>{{ order.total | formatPrice }}</td>
-        <td>{{ order.updatedAt | date: 'short' }}</td>
+        <td i18n>{{ order.state }}</td>
+        <td i18n>{{ order.total | formatPrice }}</td>
+        <td i18n>{{ order.updatedAt | date: 'short' }}</td>
     </tr>
     </tbody>
 </table>

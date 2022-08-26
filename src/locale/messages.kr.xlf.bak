@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="4e7f5f07ae8e67878f35b34bcee10e39300ff41a" datatype="html">
+        <source>Orders</source>
+        <target>주문</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">30,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4bab4df87db5cc1dc6855bf28b9b89b4a3745f48" datatype="html">
+        <source>Shipping</source>
+        <target>배송</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ff42acf9164edf1abc1b97d312bfcdb87951500" datatype="html">
+        <source>Track My Order</source>
+        <target>배송추적</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">33,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08f993dc23f471d98689cb664a68c976e6429302" datatype="html">
+        <source>Terms &amp; Conditions</source>
+        <target>약관 &amp; 정책들</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">34,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48f6d6ba36d9270d366ddd48a9edc62c7b8225bf" datatype="html">
+        <source>Returns Policy</source>
+        <target>반송 정책</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">35,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
+        <source>About</source>
+        <target>소개</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">39,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="847171f94c5e932a67df0c3b4d57e4e10d844b52" datatype="html">
+        <source>About Us</source>
+        <target>회사 소개</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">41,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e9e69ddcbf93de9fd38bc4d0f312142658610d" datatype="html">
+        <source>Contact Us</source>
+        <target>문의하기</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">42,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d6f1a5ed6f85df2e20697ce5fb0db1baaea6e65" datatype="html">
+        <source>Privacy Notice</source>
+        <target>개인정보 보호정책</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">43,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d0c132841fdd31d60fed4fefcbfc59b3554a9ee" datatype="html">
+        <source>Subscribe to our mailing list for exclusive news and offers!</source>
+        <target>우리의 소식과 제안에 대한 메일링 리스트를 구독하십시오!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">54,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d0336848b0c375a1c25ba369b3481ee383217a4f" datatype="html">
+        <source>Subscribe</source>
+        <target>구독</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">55,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e1cdd82cf73004a1f311ade9037698e9145d96cc" datatype="html">
+        <source> This is a demo storefront for Vendure, an open-source headless e-commerce framework: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://"/>vendure.io<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/vsf-layou"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;
+            &lt;a href=&quot;https:"/><x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://"/>@vendure/storefront-angular-starter on GitHub<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/vsf-layou"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

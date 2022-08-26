@@ -16,7 +16,7 @@
                    [(ngModel)]="password">
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="rememberMe" name="rememberMe" [(ngModel)]="rememberMe">
-          <label class="form-check-label" for="rememberMe">
+          <label i18n class="form-check-label" for="rememberMe">
             Remember me
           </label>
         </div>
@@ -26,7 +26,7 @@
                 type="submit">
             Sign In
         </button>
-        <div class="alert alert-warning invalid-credentials" role="alert"  [class.visible]="invalidCredentials">
+        <div i18n class="alert alert-warning invalid-credentials" role="alert"  [class.visible]="invalidCredentials">
             Invalid credentials. Please try again.<br>
             <a [routerLink]="['/account/forgotten-password', { email: this.emailAddress }]">I've forgotten my password</a>
         </div>

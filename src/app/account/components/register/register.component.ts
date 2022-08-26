@@ -15,6 +15,7 @@ export class RegisterComponent {
     firstName: string;
     lastName: string;
     emailAddress: string;
+    password: '';
     registrationSent = false;
     constructor(private dataService: DataService,
                 private changeDetector: ChangeDetectorRef) { }
@@ -25,6 +26,7 @@ export class RegisterComponent {
                 emailAddress: this.emailAddress,
                 firstName: this.firstName,
                 lastName: this.lastName,
+                password: this.password,
             },
         }).subscribe(() => {
             this.registrationSent = true;

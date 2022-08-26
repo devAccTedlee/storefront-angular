@@ -1,7 +1,7 @@
 <div class="card-deck">
     <vsf-address-card *ngFor="let address of addresses$ | async"
                       [address]="address">
-        <a class="btn btn-secondary btn-sm"
+        <a i18n class="btn btn-secondary btn-sm"
            [routerLink]="['./', address.id]">
             Edit
         </a>

@@ -29,7 +29,7 @@
                             <input type="number" min="0" max="99" placeholder="Qty" [(ngModel)]="qty"
                                    class="form-control form-control-lg">
                         </div>
-                        <button [disabled]="qty === 0"
+                        <button i18n [disabled]="qty === 0"
                                 class="btn btn-primary btn-lg"
                                 (click)="addToCart(selectedVariant, qty)">Add to cart
                         </button>
@@ -67,7 +67,7 @@
         </div>
         <div>{{ quantity }} x {{ variant.name }}</div>
     </div>
-    <button class="btn btn-sm btn-outline-primary btn-block rounded" (click)="viewCartFromNotification(close)">
+    <button i18n class="btn btn-sm btn-outline-primary btn-block rounded" (click)="viewCartFromNotification(close)">
         View cart
     </button>
 </ng-template>

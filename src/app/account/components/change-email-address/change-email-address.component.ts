@@ -14,7 +14,7 @@ import { VERIFY_CHANGE_EMAIL_ADDRESS } from './change-email-address.graphql';
     changeDetection: ChangeDetectionStrategy.Default,
 })
 export class ChangeEmailAddressComponent implements OnInit {
-    message = 'Verifying new email address...';
+    message = $localize`'Verifying new email address...'`;
     state: 'error' | 'success' | 'pending' = 'pending';
     constructor(private route: ActivatedRoute,
                 private router: Router,
@@ -33,7 +33,7 @@ export class ChangeEmailAddressComponent implements OnInit {
                 token,
             }).subscribe(
                 () => {
-                    this.message = 'Your new email address has been verified!';
+                    this.message = $localize`'Your new email address has been verified!'`;
                     this.state = 'success';
                 },
                 err => {
@@ -41,7 +41,7 @@ export class ChangeEmailAddressComponent implements OnInit {
                     this.message = err.message;
                 });
         } else {
-            this.message = 'No token provided! Cannot verify email address.';
+            this.message = $localize`'No token provided! Cannot verify email address.'`;
             this.state = 'error';
         }
     }

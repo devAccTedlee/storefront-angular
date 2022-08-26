@@ -24,7 +24,8 @@ export class ResetPasswordComponent {
                 private router: Router) {
         this.token = this.route.snapshot.queryParamMap.get('token') || undefined;
         if (!this.token) {
-            this.error = 'No token provided! Cannot reset password.';
+            this.error = $localize`'No token provided! Cannot reset password.'`;
+         
         }
     }
 

@@ -2,8 +2,221 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="369bc2e68cb31298afc15b40855745eea4042724" datatype="html">
+        <source> Edit </source>
+        <target> 편집 </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account-address-book/account-address-book.component.html</context>
+          <context context-type="linenumber">6,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="96c618fb4db99bc1fedf18b7fc4dd970a617b68e" datatype="html">
+        <source>Update Address</source>
+        <target>주소 업데이트</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account-address-detail/account-address-detail.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4322135956513675069" datatype="html">
+        <source>To complete the process, please check your email( <x id="PH" equiv-text="this.changeEmailAddressMessage = $localize`To complete the process, please check your email( ${"/> )to verify the address.</source>
+        <target>완료하기 위해, 이메일이 맞는지 ( <x id="PH" equiv-text="this.changeEmailAddressMessage = $localize`To complete the process, please check your email( ${"/> ) 확인해주세요.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account-change-credentials/account-change-credentials.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62b6c66981335ca6eecc36b331103c60f09d1026" datatype="html">
+        <source>First name</source>
+        <target>이름</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account-customer-details/account-customer-details.component.html</context>
+          <context context-type="linenumber">4,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/register/register.component.html</context>
+          <context context-type="linenumber">5,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6ce3dadf53dda1a1ab0c3167a8ed8dced471b0dc" datatype="html">
+        <source>Last name</source>
+        <target>성</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account-customer-details/account-customer-details.component.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/register/register.component.html</context>
+          <context context-type="linenumber">12,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63e1d28508d11998ba489a6ea4d8349e837162f5" datatype="html">
+        <source>Phone number</source>
+        <target>핸드폰 번호</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account-customer-details/account-customer-details.component.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="83e0458959f65cb1dce0f84d5d276a7bce3b7c3a" datatype="html">
+        <source>Update Details</source>
+        <target>세부사항 업데이트</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account-customer-details/account-customer-details.component.html</context>
+          <context context-type="linenumber">24,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="991ef8bb324e3ba9385b84a040f7caa6aafc2d60" datatype="html">
+        <source>Order <x id="INTERPOLATION" equiv-text="{{ order.code }"/></source>
+        <target>주문 <x id="INTERPOLATION" equiv-text="{{ order.code }"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account-order-detail/account-order-detail.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ff626eb159e91490ada3aab88cfd17835c30af86" datatype="html">
+        <source> Dashboard </source>
+        <target>대시보드</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account/account.component.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7c6d8787893aa9c3e0be35c61d4f9c7cfdc49c8c" datatype="html">
+        <source> Orders </source>
+        <target>주문</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account/account.component.html</context>
+          <context context-type="linenumber">15,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="035695bee1bf2ee08da427037c6c5c0be105042e" datatype="html">
+        <source> Address book </source>
+        <target>주소록</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account/account.component.html</context>
+          <context context-type="linenumber">20,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4dcbb582900e664040e9bdec6c0b93615628f412" datatype="html">
+        <source> Personal details </source>
+        <target>개인 정보</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account/account.component.html</context>
+          <context context-type="linenumber">25,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e92a62fa3ac283d38c9481110693f372ce020ac3" datatype="html">
+        <source> Change credentials </source>
+        <target>개인 정보 변경</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account/account.component.html</context>
+          <context context-type="linenumber">30,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d22c795daf43877a5f708dca2bccd549eb0471d" datatype="html">
+        <source>Sign out</source>
+        <target>로그아웃</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/account/account.component.html</context>
+          <context context-type="linenumber">33,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4951727447721237604" datatype="html">
+        <source>&apos;Verifying new email address...&apos;</source>
+        <target>&apos;새 이메일 주소 확인중...&apos;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/change-email-address/change-email-address.component.ts</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="920477651002137582" datatype="html">
+        <source>&apos;Your new email address has been verified!&apos;</source>
+        <target>&apos;새 이메일 주소가 확인되었습니다!&apos;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/change-email-address/change-email-address.component.ts</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6473492972833840485" datatype="html">
+        <source>&apos;No token provided! Cannot verify email address.&apos;</source>
+        <target>&apos;토큰이 제공되지 않았습니다! 이메일 주소를 확인 할 수 없습니다.&apos;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/change-email-address/change-email-address.component.ts</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="69b6ac577a19acc39fc0c22342092f327fff2529" datatype="html">
+        <source>Email address</source>
+        <target>이메일 주소</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/forgotten-password/forgotten-password.component.html</context>
+          <context context-type="linenumber">6,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/register/register.component.html</context>
+          <context context-type="linenumber">19,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8ee8ee343449f041630f3890b51b9805c0989990" datatype="html">
+        <source> Reset password </source>
+        <target> 비밀번호 재설정</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/forgotten-password/forgotten-password.component.html</context>
+          <context context-type="linenumber">17,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a27dd6b609de20ee2db0bbd400e7852aa088946c" datatype="html">
+        <source> An email has been sent to <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;{{ email"/><x id="INTERPOLATION" equiv-text="{{ emailAddress"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;. Please"/>. Please check and follow the included instructions. </source>
+        <target> 이메일이 <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;{{ email"/><x id="INTERPOLATION" equiv-text="{{ emailAddress"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;. Please"/> 으로 발송되었습니다. 확인 후 지시사항에 따라주세요.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/forgotten-password/forgotten-password.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="74b09b4c5e734b349746330a06c6eef9be086424" datatype="html">
+        <source> Register </source>
+        <target> 회원가입</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/register/register.component.html</context>
+          <context context-type="linenumber">38,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d3ed681bbf4a3856ace10d3a82297a65bab9a68" datatype="html">
+        <source> Great! Now check your email (<x id="INTERPOLATION" equiv-text="{{ emailAddress"/>) to complete registration. </source>
+        <target> 회원가입 완료를 위해 (<x id="INTERPOLATION" equiv-text="{{ emailAddress"/>) 를 확인해주세요.  </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/register/register.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d3ced1f1787b742bda309ef23b8e7c54116af47c" datatype="html">
+        <source> Reset password </source>
+        <target> 비밀번호 재설정</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">20,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3750635777322352412" datatype="html">
+        <source>&apos;No token provided! Cannot reset password.&apos;</source>
+        <target>&apos;토큰이 제공되지 않았습니다! 이메일 주소를 확인 할 수 없습니다.&apos;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/reset-password/reset-password.component.ts</context>
+          <context context-type="linenumber">27,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cfd00996bbee2ec76ae362250f38ab9d20f9623a" datatype="html">
+        <source> Create account </source>
+        <target> 계정 만들기</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/account/components/verify/verify.component.html</context>
+          <context context-type="linenumber">20,26</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="4e7f5f07ae8e67878f35b34bcee10e39300ff41a" datatype="html">
         <source>Orders</source>
+        <target>주문</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">30,34</context>
@@ -11,6 +224,7 @@
       </trans-unit>
       <trans-unit id="4bab4df87db5cc1dc6855bf28b9b89b4a3745f48" datatype="html">
         <source>Shipping</source>
+        <target>배송</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">32,35</context>
@@ -18,6 +232,7 @@
       </trans-unit>
       <trans-unit id="5ff42acf9164edf1abc1b97d312bfcdb87951500" datatype="html">
         <source>Track My Order</source>
+        <target>내 배송 추적</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">33,37</context>
@@ -25,6 +240,7 @@
       </trans-unit>
       <trans-unit id="08f993dc23f471d98689cb664a68c976e6429302" datatype="html">
         <source>Terms &amp; Conditions</source>
+        <target>약관 및 조건</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">34,38</context>
@@ -32,20 +248,27 @@
       </trans-unit>
       <trans-unit id="48f6d6ba36d9270d366ddd48a9edc62c7b8225bf" datatype="html">
         <source>Returns Policy</source>
+        <target>반품 정책</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">35,40</context>
+          <context context-type="linenumber">35,39</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
+      <trans-unit id="footerText" datatype="html">
         <source>About</source>
+        <target>소개</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">39,43</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/home-page/home-page.component.html</context>
+          <context context-type="linenumber">11,14</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="847171f94c5e932a67df0c3b4d57e4e10d844b52" datatype="html">
         <source>About Us</source>
+        <target>회사 소개</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">41,46</context>
@@ -53,6 +276,7 @@
       </trans-unit>
       <trans-unit id="02e9e69ddcbf93de9fd38bc4d0f312142658610d" datatype="html">
         <source>Contact Us</source>
+        <target>문의하기</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">42,47</context>
@@ -60,6 +284,7 @@
       </trans-unit>
       <trans-unit id="3d6f1a5ed6f85df2e20697ce5fb0db1baaea6e65" datatype="html">
         <source>Privacy Notice</source>
+        <target>개인정보 보호정책</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">43,48</context>
@@ -67,6 +292,7 @@
       </trans-unit>
       <trans-unit id="5d0c132841fdd31d60fed4fefcbfc59b3554a9ee" datatype="html">
         <source>Subscribe to our mailing list for exclusive news and offers!</source>
+        <target>우리의 소식과 제안에 대한 메일링 리스트를 구독하십시오!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">54,57</context>
@@ -74,6 +300,7 @@
       </trans-unit>
       <trans-unit id="d0336848b0c375a1c25ba369b3481ee383217a4f" datatype="html">
         <source>Subscribe</source>
+        <target>구독</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">55,60</context>
@@ -81,14 +308,135 @@
       </trans-unit>
       <trans-unit id="e1cdd82cf73004a1f311ade9037698e9145d96cc" datatype="html">
         <source> This is a demo storefront for Vendure, an open-source headless e-commerce framework: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://"/>vendure.io<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;
+
         &lt;/div&gt;
+
     &lt;/vsf-layou"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;
+
             &lt;a href=&quot;https:"/><x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://"/>@vendure/storefront-angular-starter on GitHub<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;
+
         &lt;/div&gt;
+
     &lt;/vsf-layou"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ba4f24bf9bf3dc4db3d6bc1b8b63339295f0b806" datatype="html">
+        <source>Sign In</source>
+        <target>로그인</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/account-link/account-link.component.html</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35ddec84bef64323860438124b61cf24859fa892" datatype="html">
+        <source>Cart</source>
+        <target>카트</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/cart-drawer/cart-drawer.component.html</context>
+          <context context-type="linenumber">5,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc815d8983e43adff9636e46b37787e6c0692c7e" datatype="html">
+        <source>Check Out</source>
+        <target>주문하기</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/cart-drawer/cart-drawer.component.html</context>
+          <context context-type="linenumber">15,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4548cc1c0a6b44586b0b242d17a26699e126b42c" datatype="html">
+        <source> Cart is empty </source>
+        <target> 카트에 상품이 없습니다.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/cart-drawer/cart-drawer.component.html</context>
+          <context context-type="linenumber">20,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
+        <source>Home</source>
+        <target>홈</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/collection-breadcrumbs/collection-breadcrumbs.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1bc537133228f5bfb25be8e7e95ca35d9f0f6159" datatype="html">
+        <source>vendure storefront</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/home-page/home-page.component.html</context>
+          <context context-type="linenumber">2,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fb90ab85e4054cd398c9cc94cf224955a5704c2b" datatype="html">
+        <source>Add to cart </source>
+        <target>카트에 추가</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/product-detail/product-detail.component.html</context>
+          <context context-type="linenumber">34,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a30124216e77b3c2a0c4c4ad7a7deaecdaa4afec" datatype="html">
+        <source> View cart </source>
+        <target> 카트 보기</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/product-detail/product-detail.component.html</context>
+          <context context-type="linenumber">71,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6b8d478988aafaf678bfa25f646141e192896e06" datatype="html">
+        <source><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="class=&quot;mr-2&quot;&gt;&lt;/f"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/> Filters </source>
+        <target><x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="class=&quot;mr-2&quot;&gt;&lt;/f"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/> 필터</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/product-list-controls/product-list-controls.component.html</context>
+          <context context-type="linenumber">3,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/product-list-controls/product-list-controls.component.html</context>
+          <context context-type="linenumber">7,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8e51c7219bf857e487dc9d48a898990f3c972804" datatype="html">
+        <source> Results for <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;tex"/>&quot;<x id="INTERPOLATION" equiv-text="{{ term }}&quot;&lt;/sp"/>&quot;<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;tex"/>&quot;<x id="INTERPOLATION" equiv-text="{{ term }}&quot;&lt;/sp"/>&quot;<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 결과</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/product-list/product-list.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0dfe7c34be4a7325ad1e2ccb544574263a11122b" datatype="html">
+        <source> Load more <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span [class.sho"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span [class.sho"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 더 불러오기</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/product-list/product-list.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0832b0768a1b2d0e1f069e44349248f64f39cef3" datatype="html">
+        <source> Remember me </source>
+        <target> 로그인 상태 유지</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">20,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9d28b781881b74179b0f1b1396762acf758885af" datatype="html">
+        <source> Invalid credentials. Please try again.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;
+
+            &lt;a [routerLink]"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>I&apos;ve forgotten my password<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;
+
+        &lt;/di"/></source>
+        <target> 계정 정보가 틀렸습니다. 다시 시도 해주세요.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;
+
+            &lt;a [routerLink]"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>비밀번호를 잊으셨나요?<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;
+
+        &lt;/di"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">30,31</context>
         </context-group>
       </trans-unit>
     </body>
